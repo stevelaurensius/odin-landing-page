@@ -14,13 +14,32 @@ a {
     margin: 0;
 }
 
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3B82F6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 32px;
+    cursor: pointer;
+}
+
 .header {
     background-color: #1F2937;
-    padding: 0px 400px;
+    padding: 0px 20%;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 .header-logo {
@@ -37,4 +56,116 @@ a {
 
 .header a {
     color: white;
+}
+
+.section-one {
+    background-color: #1F2937;
+    padding: 100px 20%;
+    display: flex;
+    gap:80px;
+    align-items: center;
+}
+
+.section-one-text {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.section-two{
+    padding: 32px 20%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+.section-two-title {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.section-two .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section-two .content {
+    width: 150px;
+}
+
+.section-two img {
+    border-radius: 16px;
+}
+
+.section-two .text {
+    color: #1F2937;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 100px 25%;
+}
+
+.section-three .quote {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.section-four {
+    padding: 100px 20%;
+}
+
+.section-four h1 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.section-four p {
+    margin: 0px;
+    color: #E5E7EB;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+.section-four-button {
+    border: 2px solid;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 32px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 32px 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
